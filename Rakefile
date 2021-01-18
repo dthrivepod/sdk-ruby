@@ -1,5 +1,5 @@
 require 'rake/testtask'
-
+spec.add_dependency "rake", ">= 12.3.3"
 Rake::TestTask.new do |t|
   t.libs.push 'test'
   t.pattern = 'test/**/*_test.rb'
