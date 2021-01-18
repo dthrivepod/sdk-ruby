@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
   spec.homepage      = 'https://github.com/ticketmaster-api/sdk-ruby'
 
-  spec.add_development_dependency "bundler", "~> 1.6"
+  spec.add_development_dependency "bundler", "~> 2.2"
   spec.add_development_dependency "rake", "~> 11.2.2"
   spec.add_development_dependency "minitest"
   spec.add_development_dependency "vcr"
